@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Marketing Agency portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a0a23;
+      color: white;
+      padding: 20px 0; 
+     
+     }
+    .container {
+      width: 90%;
+      margin: 15px;
+      overflow: hidden;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('./image.png') no-repeat center center/cover;
+      height: 90vh;
+      color: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .hero h1 {
+     font-size: 3rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #ff4c60;
+      color: white;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .services, .portfolio, .about, .contact {
+      text-align: center;
+    }
+
+    .services .service-box, .portfolio .project {
+      background: white;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      display: inline-block;
+      width: 28%;
+      vertical-align: top;
+    }
+
+    form input, form textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      background-color: #0a0a23;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 768px) {
+      .services .service-box, .portfolio .project {
+        width: 90%;
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+    }
+
+    .casestudies{
+      background: white;
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      display: inline-block;
+      width: 28%;
+      vertical-align: top;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <h1>Digital Marketing Agency Portfolio</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#casestudies">Case Studies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header> 
+  <div class="bg-image">
+
+ </div>
+  <section class="hero">
+    <h1>Elevate Your Brand Online</h1>
+    <p>We help businesses grow through smart, targeted digital marketing strategies.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </section>
+
+  <section id="services" class="services container">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <h3>SEO Optimization</h3>
+      <p>Rank higher on search engines with our tailored SEO strategies.</p>
+    </div>
+    <div class="service-box">
+      <h3>Social Media Marketing</h3>
+      <p>Engage your audience and build brand loyalty on social platforms.</p>
+    </div>
+    <div class="service-box">
+      <h3>Pay-Per-Click Ads</h3>
+      <p>Drive instant traffic and leads with smart paid advertising.</p>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio container">
+    <h2>Our Work</h2>
+    <div class="project">
+      <h4>Fashion E-Commerce Boost</h4>
+      <p>Increased sales by 80% through Instagram Ads & SEO.</p>
+    </div>
+    <div class="project">
+      <h4>Local Business Growth</h4>
+      <p>Doubled customer base for a local cafe using Google Ads.</p>
+    </div>
+    <div class="project">
+      <h4>SaaS Startup Launch</h4>
+      <p>Generated 5,000 sign-ups in 30 days with multichannel marketing.</p>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <h2>About Us</h2>
+    <p>Digital Marketing Agency Portfolio is a full-service digital marketing agency committed to helping startups and established businesses grow online. Our team of creative marketers, strategists, and designers is passionate about delivering measurable results.</p>
+  </section>
+<center>
+    <section id="casestudies" class="case studies container">
+    <h2>our work</h2>
+    <div class="project">
+      <h4>field or topic</h4>
+      <p>you're interested in?</p>
+    </div>
+    <div class="project">
+      <h4>fictional</h4>
+      <p>do you want real world case studies</p>
+    </div>
+    <div class="project">
+      <h4>purpose</h4>
+      <p>school project,work presentation,content writing,etc..</p>
+    </div>
+     
+  </section></center>
+
+
+  <section id="contact" class="contact container">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea rows="5" placeholder="Your Message" required></textarea><br>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025  Digital Marketing Agency Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
